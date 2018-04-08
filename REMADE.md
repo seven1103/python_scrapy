@@ -10,6 +10,8 @@ scrapy爬虫原理过程:
     8、引擎发送处理后的items到项目管道，然后把处理结果返回给调度器，调度器计划处理下一个请求抓取。 
     9、重复该过程（继续步骤1），直到爬取完所有的url请求。
 
+    ![alt text](https://img-blog.csdn.net/20161226185731268?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveWFuY2V5X2Jsb2c=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast "Title")
+
 scrapy的所有组件工作流程，下面单独介绍各个组件
 =====
 爬虫引擎(ENGINE) 
@@ -42,13 +44,12 @@ spider中间件是engine和spider之间的交互组件，以钩子(插件)的形
 
 scrapy项目结构
 =====
-    items.py 负责数据模型的建立，类似于实体类。
-    middlewares.py 自己定义的中间件。
-    pipelines.py 负责对spider返回数据的处理。
-    settings.py 负责对整个爬虫的配置。
-    spiders目录 负责存放继承自scrapy的爬虫类。
-    scrapy.cfg scrapy基础配置
+* items.py 负责数据模型的建立，类似于实体类。
+* middlewares.py 自己定义的中间件。
+* pipelines.py 负责对spider返回数据的处理。
+* settings.py 负责对整个爬虫的配置。
+* spiders目录 负责存放继承自scrapy的爬虫类。
+* scrapy.cfg scrapy基础配置
 
-参考网站：
-#
-    https://www.xncoding.com/2016/03/08/scrapy-01.html
+    参考网站:[https://www.xncoding.com/2016/03/08/scrapy-01.html](https://www.xncoding.com/2016/03/08/scrapy-01.html)
+            [https://blog.csdn.net/yancey_blog/article/details/53888473(https://blog.csdn.net/yancey_blog/article/details/53888473)
