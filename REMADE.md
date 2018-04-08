@@ -11,7 +11,7 @@ scrapy爬虫原理过程:
     9、重复该过程（继续步骤1），直到爬取完所有的url请求。
 ### 流程图
 ![github](https://avatars3.githubusercontent.com/u/6541847?v=4 "github")
-![github](https://img-blog.csdn.net/20161226185731268?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveWFuY2V5X2Jsb2c=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast "github")
+![liuchengtu](https://img-blog.csdn.net/20161226185731268?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveWFuY2V5X2Jsb2c=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast "liuchengtu")
     
 
 scrapy的所有组件工作流程，下面单独介绍各个组件
