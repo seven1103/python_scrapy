@@ -9,8 +9,9 @@ scrapy爬虫原理过程:
     7、爬虫处理响应，并通过中间件返回处理后的items，以及新的请求给引擎。 
     8、引擎发送处理后的items到项目管道，然后把处理结果返回给调度器，调度器计划处理下一个请求抓取。 
     9、重复该过程（继续步骤1），直到爬取完所有的url请求。
-
-    ![github](http://github.com/unicorn.png "github")
+### 流程图
+![github](http://github.com/unicorn.png "github")
+    
 
 scrapy的所有组件工作流程，下面单独介绍各个组件
 =====
